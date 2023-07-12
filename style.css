@@ -224,3 +224,41 @@ textarea {
   font-weight: 400;
   padding: 0px 20px;
 }
+
+/* responsive styles */
+@media screen and (max-width: 576px) {
+  .header-container {
+    background: none;
+  }
+  .do-section {
+    padding: 10px;
+  }
+  nav,
+  .hero-section,
+  .card-container,
+  .skills-container,
+  footer {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 20px;
+  }
+  .hero-section,
+  nav {
+    margin: 0 20px;
+  }
+  .hero-img {
+    width: 100%;
+  }
+  nav ul {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    padding-left: 0;
+  }
+  nav li {
+    margin: 0;
+  }
+  .about-section {
+    padding: 30px;
+  }
+}
