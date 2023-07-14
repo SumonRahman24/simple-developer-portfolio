@@ -280,10 +280,11 @@ textarea {
   }
   /* resume section */
   .resume-section {
-    padding: 0;
+    padding: 50;
     margin: 0;
   }
   .skills-container {
+    display: flex;
     flex-direction: column;
   }
   /* footer section */
@@ -291,7 +292,6 @@ textarea {
     flex-direction: column;
     padding: 0;
     margin: 0;
-    background: green;
   }
   .connect-area {
     padding: 0;
