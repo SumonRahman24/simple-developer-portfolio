@@ -225,40 +225,30 @@ textarea {
   padding: 0px 20px;
 }
 
-/* responsive styles */
+/* Hide Display */
+.hide {
+  display: none;
+}
+
+/* ----------------------------------
+------ responsive mobile or small  device -----
+ ------------------------------------*/
 @media screen and (max-width: 576px) {
-  .header-container {
-    background: none;
-  }
-  .do-section {
-    padding: 10px;
-  }
-  nav,
-  .hero-section,
   .card-container,
-  .skills-container,
-  footer {
+  .do-section {
     flex-direction: column;
-    gap: 20px;
-    padding: 10px 20px;
+    padding: 0 10px;
   }
-  .hero-section,
-  nav {
-    margin: 0 20px;
-  }
-  .hero-img {
-    width: 100%;
-  }
-  nav ul {
-    flex-direction: column;
-    gap: 20px;
-    align-items: flex-start;
-    padding-left: 0;
-  }
-  nav li {
-    margin: 0;
-  }
-  .about-section {
-    padding: 30px;
+}
+
+/* ----------------------------------
+------ responsive medium device -----
+ ------------------------------------*/
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 10px;
+    background: #a89393;
   }
 }
