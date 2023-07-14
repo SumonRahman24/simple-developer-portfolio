@@ -278,29 +278,18 @@ textarea {
   .hero-img img {
     width: 100%;
   }
-  /* body {
-    background-color: cadetblue;
+  /* resume section */
+  .resume-section {
+    padding: 0;
+    margin: 0;
   }
-  .footer-container {
+  .skills-container {
     flex-direction: column;
-    padding: 10px;
-    background: gray;
-    width: 100%;
   }
-  .message-area {
-    width: 50%;
+  footer {
+    flex-direction: column;
+    padding: 0;
   }
-  .connect-area {
-    width: 50%;
-  }
-  input,
-  textarea {
-    width: 80%;
-  }
-  .footer-container {
-    padding: 10px;
-    text-align: center;
-  } */
 }
 
 /* ------------------------------
