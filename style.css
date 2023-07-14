@@ -225,42 +225,15 @@ textarea {
   padding: 0px 20px;
 }
 
-<<<<<<< HEAD
-/* Hide Display */
-=======
->>>>>>> 57a3677 (responsive start)
 .hide {
   display: none;
 }
 
-<<<<<<< HEAD
-/* ----------------------------------
------- responsive mobile or small  device -----
- ------------------------------------*/
-@media screen and (max-width: 576px) {
-  .card-container,
-  .do-section {
-    flex-direction: column;
-    padding: 0 10px;
-  }
-}
-
-/* ----------------------------------
------- responsive medium device -----
- ------------------------------------*/
-@media screen and (min-width: 576px) and (max-width: 992px) {
-  .card-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 0 10px;
-    background: #a89393;
-=======
-/* ---------------------------------------
---- responsive mobile device  ------------
------------------------------------------- */
+/* ------------------------------
+---- responsive mobile device ---
+--------------------------------- */
 @media screen and (max-width: 576px) {
   .card-container {
     flex-direction: column;
->>>>>>> 57a3677 (responsive start)
   }
 }
