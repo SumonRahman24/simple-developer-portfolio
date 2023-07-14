@@ -65,16 +65,16 @@ nav a {
   margin-left: 150px;
 }
 .hero-content h3 {
-  font-size: 45px;
+  font-size: 2.8125rem;
   font-weight: 600;
   color: #474747;
 }
 .hero-content h1 {
-  font-size: 85px;
+  font-size: 5.3125rem;
   font-weight: 700;
 }
 .hero-content p {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   color: #757575;
   line-height: 30px;
@@ -180,8 +180,8 @@ nav a {
 }
 
 .skills-item-heading {
-  margin-bottom: 20px;
-  font-size: 25px;
+  margin-bottom: 1.25rem;
+  font-size: 1.5625rem;
   font-weight: 700;
 }
 
@@ -192,11 +192,11 @@ nav a {
 
 /* footer section */
 footer {
-  height: 780px;
+  height: 48.75rem;
   background: #fff8f3;
   display: flex;
   justify-content: space-between;
-  padding: 100px 200px;
+  padding: 6.25rem 12.5rem;
 }
 
 .message-area {
@@ -220,7 +220,7 @@ textarea {
 }
 
 ::placeholder {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   padding: 0px 20px;
 }
@@ -229,11 +229,88 @@ textarea {
   display: none;
 }
 
-/* ---------------------------------------
---- responsive mobile device  ------------
------------------------------------------- */
+/* ------------------------------
+---- responsive mobile device ---
+--------------------------------- */
 @media screen and (max-width: 576px) {
-  .card-container {
+  /* do section */
+  .do-section {
+    padding: 0 30px;
+    background: gray;
+  }
+
+  .card-container,
+  .skills-container {
     flex-direction: column;
+  }
+  /* about section */
+  .about-section {
+    padding: 0 20px;
+  }
+  .infos {
+    flex-direction: column;
+    gap: 25px;
+    padding: 10px 10px;
+  }
+  /* navigation */
+  .header-container {
+    background-image: none;
+  }
+  nav,
+  .hero-section {
+    flex-direction: column;
+    gap: 50px;
+    margin: 0;
+    /* padding: 0; */
+  }
+  .hero-content {
+    text-align: center;
+    margin: 20px auto;
+  }
+  .contact-btn {
+    margin-top: 15px;
+  }
+  ul {
+    flex-direction: column;
+    gap: 10px;
+
+    border: 2px solid green;
+  }
+  .hero-img img {
+    width: 100%;
+  }
+  /* body {
+    background-color: cadetblue;
+  }
+  .footer-container {
+    flex-direction: column;
+    padding: 10px;
+    background: gray;
+    width: 100%;
+  }
+  .message-area {
+    width: 50%;
+  }
+  .connect-area {
+    width: 50%;
+  }
+  input,
+  textarea {
+    width: 80%;
+  }
+  .footer-container {
+    padding: 10px;
+    text-align: center;
+  } */
+}
+
+/* ------------------------------
+---- responsive medium device ---
+--------------------------------- */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 20px;
   }
 }
